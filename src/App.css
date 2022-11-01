@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+   
+    background-color: rgb(220, 252, 241);
+    width: fit-content;
+    text-align: center;
+    margin: 5rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem; 
+    opacity: 0.7;
+    transition: .5s;
+    box-shadow: 0 0 5px 1px rgb(209, 209, 209);
+}
+.App:hover{
+    transition: .5s;
+    scale: 1.1;
+    opacity: 0.9;
+    box-shadow: 0 0 5px 1px rgb(175, 175, 175);
+}
+
+.title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-shadow: 10px 10px 10px  rgb(175, 172, 172);
+}
+
+
+
+.target{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.info-imgtemp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inf{
+    margin-top: .5rem;
+    text-align: start;
+}
+
+.but{
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgb(235, 209, 172);
+    border: 1px solid rgb(235, 209, 172);
+    box-shadow: 0 0 5px 1px rgb(209, 209, 209);
+    transition: .5s;
+}
+.but:hover{
+    transition: .5s;
+    box-shadow: 0 0 5px 3px rgb(209, 209, 209);
+    scale: 1.1;
+    background-color: rgb(223, 181, 122);
+    border: 1px solid rgb(223, 181, 122);
+
+}
+
+
